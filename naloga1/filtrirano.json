@@ -1,0 +1,149 @@
+{
+  "datumIzvoza": "2026-10-18T09:57:48.140Z",
+  "filtri": {
+    "mesto": "Ljubljana"
+  },
+  "steviloZapisov": 5,
+  "polnjenja": [
+    {
+      "id": "N01",
+      "datum": "2026-09-02",
+      "energijaKWh": 35,
+      "trajanjeMin": 25,
+      "cenaEur": 20.65,
+      "ocena": 5,
+      "vozilo": {
+        "id": "V02",
+        "znamka": "Volkswagen",
+        "model": "ID.3",
+        "letnik": 2023,
+        "kapacitetaKWh": 58,
+        "porabaKWh100km": 15.5,
+        "prikljucek": "CCS"
+      },
+      "polnilnica": {
+        "id": "P01",
+        "ime": "Petrol BTC",
+        "mesto": "Ljubljana",
+        "upravljavec": "Petrol",
+        "prikljucek": "CCS",
+        "mocKW": 150,
+        "cenaKWh": 0.59,
+        "deluje": true,
+        "datumZadnjegaPregleda": "2026-03-12"
+      }
+    },
+    {
+      "id": "N02",
+      "datum": "2026-09-03",
+      "energijaKWh": 40,
+      "trajanjeMin": 18,
+      "cenaEur": 19.6,
+      "ocena": 5,
+      "vozilo": {
+        "id": "V03",
+        "znamka": "Tesla",
+        "model": "Model 3",
+        "letnik": 2022,
+        "kapacitetaKWh": 60,
+        "porabaKWh100km": 14.5,
+        "prikljucek": "CCS"
+      },
+      "polnilnica": {
+        "id": "P12",
+        "ime": "Tesla Rudnik",
+        "mesto": "Ljubljana",
+        "upravljavec": "Tesla",
+        "prikljucek": "CCS",
+        "mocKW": 250,
+        "cenaKWh": 0.49,
+        "deluje": true,
+        "datumZadnjegaPregleda": "2026-07-07"
+      }
+    },
+    {
+      "id": "N13",
+      "datum": "2026-09-25",
+      "energijaKWh": 30,
+      "trajanjeMin": 30,
+      "cenaEur": 17.7,
+      "ocena": 2,
+      "vozilo": {
+        "id": "V08",
+        "znamka": "BMW",
+        "model": "i3",
+        "letnik": null,
+        "kapacitetaKWh": 42,
+        "porabaKWh100km": 15,
+        "prikljucek": "CCS"
+      },
+      "polnilnica": {
+        "id": "P01",
+        "ime": "Petrol BTC",
+        "mesto": "Ljubljana",
+        "upravljavec": "Petrol",
+        "prikljucek": "CCS",
+        "mocKW": 150,
+        "cenaKWh": 0.59,
+        "deluje": true,
+        "datumZadnjegaPregleda": "2026-03-12"
+      }
+    },
+    {
+      "id": "N16",
+      "datum": "2026-10-03",
+      "energijaKWh": 48,
+      "trajanjeMin": 25,
+      "cenaEur": 23.52,
+      "ocena": 5,
+      "vozilo": {
+        "id": "V04",
+        "znamka": "Hyundai",
+        "model": "Kona Electric",
+        "letnik": 2020,
+        "kapacitetaKWh": 64,
+        "porabaKWh100km": 15,
+        "prikljucek": "CCS"
+      },
+      "polnilnica": {
+        "id": "P12",
+        "ime": "Tesla Rudnik",
+        "mesto": "Ljubljana",
+        "upravljavec": "Tesla",
+        "prikljucek": "CCS",
+        "mocKW": 250,
+        "cenaKWh": 0.49,
+        "deluje": true,
+        "datumZadnjegaPregleda": "2026-07-07"
+      }
+    },
+    {
+      "id": "N18",
+      "datum": "2026-10-07",
+      "energijaKWh": 52,
+      "trajanjeMin": 24,
+      "cenaEur": 30.68,
+      "ocena": null,
+      "vozilo": {
+        "id": "V11",
+        "znamka": "Tesla",
+        "model": "Model Y",
+        "letnik": 2024,
+        "kapacitetaKWh": 75,
+        "porabaKWh100km": 16.5,
+        "prikljucek": "CCS"
+      },
+      "polnilnica": {
+        "id": "P01",
+        "ime": "Petrol BTC",
+        "mesto": "Ljubljana",
+        "upravljavec": "Petrol",
+        "prikljucek": "CCS",
+        "mocKW": 150,
+        "cenaKWh": 0.59,
+        "deluje": true,
+        "datumZadnjegaPregleda": "2026-03-12"
+      }
+    }
+  ]
+}

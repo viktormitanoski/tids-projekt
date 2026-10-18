@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<polnjenja>
+  <polnjenje id="N01">
+    <voziloId>V02</voziloId>
+    <polnilnicaId>P01</polnilnicaId>
+    <datum>2026-09-02</datum>
+    <energijaKWh>35.0</energijaKWh>
+    <trajanjeMin>25</trajanjeMin>
+    <cenaEur>20.65</cenaEur>
+    <ocena>5</ocena>
+  </polnjenje>
+  <polnjenje id="N02">
+    <voziloId>V03</voziloId>
+    <polnilnicaId>P12</polnilnicaId>
+    <datum>2026-09-03</datum>
+    <energijaKWh>40.0</energijaKWh>
+    <trajanjeMin>18</trajanjeMin>
+    <cenaEur>19.60</cenaEur>
+    <ocena>5</ocena>
+  </polnjenje>
+  <polnjenje id="N03">
+    <voziloId>V01</voziloId>
+    <polnilnicaId>P03</polnilnicaId>
+    <datum>2026-09-05</datum>
+    <energijaKWh>30.0</energijaKWh>
+    <trajanjeMin>95</trajanjeMin>
+    <cenaEur>11.70</cenaEur>
+    <ocena>4</ocena>
+  </polnjenje>
+  <polnjenje id="N04">
+    <voziloId>V05</voziloId>
+    <polnilnicaId>P07</polnilnicaId>
+    <datum>2026-09-06</datum>
+    <energijaKWh>25.0</energijaKWh>
+    <trajanjeMin>40</trajanjeMin>
+    <cenaEur>13.75</cenaEur>
+    <ocena></ocena>
+  </polnjenje>
+  <polnjenje id="N05">
+    <voziloId>V04</voziloId>
+    <polnilnicaId>P05</polnilnicaId>
+    <datum>2026-09-08</datum>
+    <energijaKWh>42.0</energijaKWh>
+    <trajanjeMin>35</trajanjeMin>
+    <cenaEur>21.84</cenaEur>
+    <ocena>4</ocena>
+  </polnjenje>
+  <polnjenje id="N06">
+    <voziloId>V06</voziloId>
+    <polnilnicaId>P08</polnilnicaId>
+    <datum>2026-09-10</datum>
+    <energijaKWh>55.0</energijaKWh>
+    <trajanjeMin>20</trajanjeMin>
+    <cenaEur>37.95</cenaEur>
+    <ocena>5</ocena>
+  </polnjenje>
+  <polnjenje id="N07">
+    <voziloId>V07</voziloId>
+    <polnilnicaId>P14</polnilnicaId>
+    <datum>2026-09-12</datum>
+    <energijaKWh>50.0</energijaKWh>
+    <trajanjeMin>30</trajanjeMin>
+    <cenaEur>29.50</cenaEur>
+    <ocena>3</ocena>
+  </polnjenje>
+  <polnjenje id="N08">
+    <voziloId>V09</voziloId>
+    <polnilnicaId>P02</polnilnicaId>
+    <datum>2026-09-14</datum>
+    <energijaKWh>32.0</energijaKWh>
+    <trajanjeMin>38</trajanjeMin>
+    <cenaEur>17.60</cenaEur>
+    <ocena>4</ocena>
+  </polnjenje>
+  <polnjenje id="N09">
+    <voziloId>V10</voziloId>
+    <polnilnicaId>P04</polnilnicaId>
+    <datum>2026-09-15</datum>
+    <energijaKWh>18.0</energijaKWh>
+    <trajanjeMin>60</trajanjeMin>
+    <cenaEur>6.30</cenaEur>
+    <ocena></ocena>
+  </polnjenje>
+  <polnjenje id="N10">
+    <voziloId>V11</voziloId>
+    <polnilnicaId>P06</polnilnicaId>
+    <datum>2026-09-18</datum>
+    <energijaKWh>60.0</energijaKWh>
+    <trajanjeMin>22</trajanjeMin>
+    <cenaEur>41.40</cenaEur>
+    <ocena>5</ocena>
+  </polnjenje>
+  <polnjenje id="N11">
+    <voziloId>V12</voziloId>
+    <polnilnicaId>P10</polnilnicaId>
+    <datum>2026-09-20</datum>
+    <energijaKWh>28.0</energijaKWh>
+    <trajanjeMin>25</trajanjeMin>
+    <cenaEur>15.96</cenaEur>
+    <ocena>4</ocena>
+  </polnjenje>
+  <polnjenje id="N12">
+    <voziloId>V02</voziloId>
+    <polnilnicaId>P14</polnilnicaId>
+    <datum>2026-09-22</datum>
+    <energijaKWh>38.0</energijaKWh>
+    <trajanjeMin>28</trajanjeMin>
+    <cenaEur>22.42</cenaEur>
+    <ocena>4</ocena>
+  </polnjenje>
+  <polnjenje id="N13">
+    <voziloId>V08</voziloId>
+    <polnilnicaId>P01</polnilnicaId>
+    <datum>2026-09-25</datum>
+    <energijaKWh>30.0</energijaKWh>
+    <trajanjeMin>30</trajanjeMin>
+    <cenaEur>17.70</cenaEur>
+    <ocena>2</ocena>
+  </polnjenje>
+  <polnjenje id="N14">
+    <voziloId>V03</voziloId>
+    <polnilnicaId>P15</polnilnicaId>
+    <datum>2026-09-28</datum>
+    <energijaKWh>45.0</energijaKWh>
+    <trajanjeMin>33</trajanjeMin>
+    <cenaEur>27.90</cenaEur>
+    <ocena>4</ocena>
+  </polnjenje>
+  <polnjenje id="N15">
+    <voziloId>V01</voziloId>
+    <polnilnicaId>P13</polnilnicaId>
+    <datum>2026-10-01</datum>
+    <energijaKWh>26.0</energijaKWh>
+    <trajanjeMin>80</trajanjeMin>
+    <cenaEur>9.10</cenaEur>
+    <ocena>5</ocena>
+  </polnjenje>
+  <polnjenje id="N16">
+    <voziloId>V04</voziloId>
+    <polnilnicaId>P12</polnilnicaId>
+    <datum>2026-10-03</datum>
+    <energijaKWh>48.0</energijaKWh>
+    <trajanjeMin>25</trajanjeMin>
+    <cenaEur>23.52</cenaEur>
+    <ocena>5</ocena>
+  </polnjenje>
+  <polnjenje id="N17">
+    <voziloId>V06</voziloId>
+    <polnilnicaId>P05</polnilnicaId>
+    <datum>2026-10-05</datum>
+    <energijaKWh>50.0</energijaKWh>
+    <trajanjeMin>40</trajanjeMin>
+    <cenaEur>26.00</cenaEur>
+    <ocena>3</ocena>
+  </polnjenje>
+  <polnjenje id="N18">
+    <voziloId>V11</voziloId>
+    <polnilnicaId>P01</polnilnicaId>
+    <datum>2026-10-07</datum>
+    <energijaKWh>52.0</energijaKWh>
+    <trajanjeMin>24</trajanjeMin>
+    <cenaEur>30.68</cenaEur>
+    <ocena></ocena>
+  </polnjenje>
+  <polnjenje id="N19">
+    <voziloId>V09</voziloId>
+    <polnilnicaId>P10</polnilnicaId>
+    <datum>2026-10-10</datum>
+    <energijaKWh>30.0</energijaKWh>
+    <trajanjeMin>28</trajanjeMin>
+    <cenaEur>17.10</cenaEur>
+    <ocena>4</ocena>
+  </polnjenje>
+  <polnjenje id="N20">
+    <voziloId>V07</voziloId>
+    <polnilnicaId>P06</polnilnicaId>
+    <datum>2026-10-12</datum>
+    <energijaKWh>62.0</energijaKWh>
+    <trajanjeMin>21</trajanjeMin>
+    <cenaEur>42.78</cenaEur>
+    <ocena>5</ocena>
+  </polnjenje>
+</polnjenja>

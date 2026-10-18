@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<polnilnice>
+  <polnilnica id="P01">
+    <ime>Petrol BTC</ime>
+    <mesto>Ljubljana</mesto>
+    <upravljavec>Petrol</upravljavec>
+    <prikljucek>CCS</prikljucek>
+    <mocKW>150</mocKW>
+    <cenaKWh>0.59</cenaKWh>
+    <deluje>true</deluje>
+    <datumZadnjegaPregleda>2026-03-12</datumZadnjegaPregleda>
+  </polnilnica>
+  <polnilnica id="P02">
+    <ime>Petrol Tepanje</ime>
+    <mesto>Slovenske Konjice</mesto>
+    <upravljavec>Petrol</upravljavec>
+    <prikljucek>CCS</prikljucek>
+    <mocKW>50</mocKW>
+    <cenaKWh>0.55</cenaKWh>
+    <deluje>true</deluje>
+    <datumZadnjegaPregleda>2025-11-04</datumZadnjegaPregleda>
+  </polnilnica>
+  <polnilnica id="P03">
+    <ime>Europark</ime>
+    <mesto>Maribor</mesto>
+    <upravljavec>MOOON</upravljavec>
+    <prikljucek>TYPE2</prikljucek>
+    <mocKW>22</mocKW>
+    <cenaKWh>0.39</cenaKWh>
+    <deluje>true</deluje>
+    <datumZadnjegaPregleda>2026-01-20</datumZadnjegaPregleda>
+  </polnilnica>
+  <polnilnica id="P04">
+    <ime>Kranj center</ime>
+    <mesto>Kranj</mesto>
+    <upravljavec>GremoNaElektriko</upravljavec>
+    <prikljucek>TYPE2</prikljucek>
+    <mocKW>22</mocKW>
+    <cenaKWh>0.35</cenaKWh>
+    <deluje>true</deluje>
+    <datumZadnjegaPregleda></datumZadnjegaPregleda>
+  </polnilnica>
+  <polnilnica id="P05">
+    <ime>Interspar Celje</ime>
+    <mesto>Celje</mesto>
+    <upravljavec>MOOON</upravljavec>
+    <prikljucek>CCS</prikljucek>
+    <mocKW>100</mocKW>
+    <cenaKWh>0.52</cenaKWh>
+    <deluje>true</deluje>
+    <datumZadnjegaPregleda>2026-05-02</datumZadnjegaPregleda>
+  </polnilnica>
+  <polnilnica id="P06">
+    <ime>Koper Supernova</ime>
+    <mesto>Koper</mesto>
+    <upravljavec>Ionity</upravljavec>
+    <prikljucek>CCS</prikljucek>
+    <mocKW>350</mocKW>
+    <cenaKWh>0.69</cenaKWh>
+    <deluje>true</deluje>
+    <datumZadnjegaPregleda>2026-02-15</datumZadnjegaPregleda>
+  </polnilnica>
+  <polnilnica id="P07">
+    <ime>Petrol Novo mesto</ime>
+    <mesto>Novo mesto</mesto>
+    <upravljavec>Petrol</upravljavec>
+    <prikljucek>CHADEMO</prikljucek>
+    <mocKW>50</mocKW>
+    <cenaKWh>0.55</cenaKWh>
+    <deluje>false</deluje>
+    <datumZadnjegaPregleda>2025-09-30</datumZadnjegaPregleda>
+  </polnilnica>
+  <polnilnica id="P08">
+    <ime>Počivališče Lukovica</ime>
+    <mesto>Lukovica</mesto>
+    <upravljavec>Ionity</upravljavec>
+    <prikljucek>CCS</prikljucek>
+    <mocKW>350</mocKW>
+    <cenaKWh>0.69</cenaKWh>
+    <deluje>true</deluje>
+    <datumZadnjegaPregleda>2026-04-18</datumZadnjegaPregleda>
+  </polnilnica>
+  <polnilnica id="P09">
+    <ime>Ptuj center</ime>
+    <mesto>Ptuj</mesto>
+    <upravljavec>GremoNaElektriko</upravljavec>
+    <prikljucek>TYPE2</prikljucek>
+    <mocKW>11</mocKW>
+    <cenaKWh>0.30</cenaKWh>
+    <deluje>true</deluje>
+    <datumZadnjegaPregleda></datumZadnjegaPregleda>
+  </polnilnica>
+  <polnilnica id="P10">
+    <ime>Nova Gorica Qlandia</ime>
+    <mesto>Nova Gorica</mesto>
+    <upravljavec>MOOON</upravljavec>
+    <prikljucek>CCS</prikljucek>
+    <mocKW>150</mocKW>
+    <cenaKWh>0.57</cenaKWh>
+    <deluje>true</deluje>
+    <datumZadnjegaPregleda>2026-06-01</datumZadnjegaPregleda>
+  </polnilnica>
+  <polnilnica id="P11">
+    <ime>Petrol Murska Sobota</ime>
+    <mesto>Murska Sobota</mesto>
+    <upravljavec>Petrol</upravljavec>
+    <prikljucek>CCS</prikljucek>
+    <mocKW>50</mocKW>
+    <cenaKWh>0.55</cenaKWh>
+    <deluje>false</deluje>
+    <datumZadnjegaPregleda>2025-12-10</datumZadnjegaPregleda>
+  </polnilnica>
+  <polnilnica id="P12">
+    <ime>Tesla Rudnik</ime>
+    <mesto>Ljubljana</mesto>
+    <upravljavec>Tesla</upravljavec>
+    <prikljucek>CCS</prikljucek>
+    <mocKW>250</mocKW>
+    <cenaKWh>0.49</cenaKWh>
+    <deluje>true</deluje>
+    <datumZadnjegaPregleda>2026-07-07</datumZadnjegaPregleda>
+  </polnilnica>
+  <polnilnica id="P13">
+    <ime>Velenje center</ime>
+    <mesto>Velenje</mesto>
+    <upravljavec>GremoNaElektriko</upravljavec>
+    <prikljucek>TYPE2</prikljucek>
+    <mocKW>22</mocKW>
+    <cenaKWh>0.35</cenaKWh>
+    <deluje>true</deluje>
+    <datumZadnjegaPregleda>2026-03-03</datumZadnjegaPregleda>
+  </polnilnica>
+  <polnilnica id="P14">
+    <ime>Petrol Tezno</ime>
+    <mesto>Maribor</mesto>
+    <upravljavec>Petrol</upravljavec>
+    <prikljucek>CCS</prikljucek>
+    <mocKW>150</mocKW>
+    <cenaKWh>0.59</cenaKWh>
+    <deluje>true</deluje>
+    <datumZadnjegaPregleda>2026-08-21</datumZadnjegaPregleda>
+  </polnilnica>
+  <polnilnica id="P15">
+    <ime>OMV Postojna</ime>
+    <mesto>Postojna</mesto>
+    <upravljavec>OMV</upravljavec>
+    <prikljucek>CCS</prikljucek>
+    <mocKW>100</mocKW>
+    <cenaKWh>0.62</cenaKWh>
+    <deluje>true</deluje>
+  </polnilnica>
+</polnilnice>

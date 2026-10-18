@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vozila>
+  <vozilo id="V01">
+    <znamka>Renault</znamka>
+    <model>Zoe</model>
+    <letnik>2021</letnik>
+    <kapacitetaKWh>52</kapacitetaKWh>
+    <porabaKWh100km>16.0</porabaKWh100km>
+    <prikljucek>TYPE2</prikljucek>
+  </vozilo>
+  <vozilo id="V02">
+    <znamka>Volkswagen</znamka>
+    <model>ID.3</model>
+    <letnik>2023</letnik>
+    <kapacitetaKWh>58</kapacitetaKWh>
+    <porabaKWh100km>15.5</porabaKWh100km>
+    <prikljucek>CCS</prikljucek>
+  </vozilo>
+  <vozilo id="V03">
+    <znamka>Tesla</znamka>
+    <model>Model 3</model>
+    <letnik>2022</letnik>
+    <kapacitetaKWh>60</kapacitetaKWh>
+    <porabaKWh100km>14.5</porabaKWh100km>
+    <prikljucek>CCS</prikljucek>
+  </vozilo>
+  <vozilo id="V04">
+    <znamka>Hyundai</znamka>
+    <model>Kona Electric</model>
+    <letnik>2020</letnik>
+    <kapacitetaKWh>64</kapacitetaKWh>
+    <porabaKWh100km>15.0</porabaKWh100km>
+    <prikljucek>CCS</prikljucek>
+  </vozilo>
+  <vozilo id="V05">
+    <znamka>Nissan</znamka>
+    <model>Leaf</model>
+    <letnik>2019</letnik>
+    <kapacitetaKWh>40</kapacitetaKWh>
+    <porabaKWh100km>17.0</porabaKWh100km>
+    <prikljucek>CHADEMO</prikljucek>
+  </vozilo>
+  <vozilo id="V06">
+    <znamka>Kia</znamka>
+    <model>EV6</model>
+    <letnik>2024</letnik>
+    <kapacitetaKWh>77</kapacitetaKWh>
+    <porabaKWh100km>17.5</porabaKWh100km>
+    <prikljucek>CCS</prikljucek>
+  </vozilo>
+  <vozilo id="V07">
+    <znamka>Škoda</znamka>
+    <model>Enyaq</model>
+    <letnik>2023</letnik>
+    <kapacitetaKWh>77</kapacitetaKWh>
+    <porabaKWh100km>17.0</porabaKWh100km>
+    <prikljucek>CCS</prikljucek>
+  </vozilo>
+  <vozilo id="V08">
+    <znamka>BMW</znamka>
+    <model>i3</model>
+    <kapacitetaKWh>42</kapacitetaKWh>
+    <porabaKWh100km>15.0</porabaKWh100km>
+    <prikljucek>CCS</prikljucek>
+  </vozilo>
+  <vozilo id="V09">
+    <znamka>Peugeot</znamka>
+    <model>e-208</model>
+    <letnik>2022</letnik>
+    <kapacitetaKWh>50</kapacitetaKWh>
+    <porabaKWh100km>15.5</porabaKWh100km>
+    <prikljucek>CCS</prikljucek>
+  </vozilo>
+  <vozilo id="V10">
+    <znamka>Dacia</znamka>
+    <model>Spring</model>
+    <letnik>2023</letnik>
+    <kapacitetaKWh>26.8</kapacitetaKWh>
+    <porabaKWh100km>13.9</porabaKWh100km>
+    <prikljucek>TYPE2</prikljucek>
+  </vozilo>
+  <vozilo id="V11">
+    <znamka>Tesla</znamka>
+    <model>Model Y</model>
+    <letnik>2024</letnik>
+    <kapacitetaKWh>75</kapacitetaKWh>
+    <porabaKWh100km>16.5</porabaKWh100km>
+    <prikljucek>CCS</prikljucek>
+  </vozilo>
+  <vozilo id="V12">
+    <znamka>Fiat</znamka>
+    <model>500e</model>
+    <letnik>2021</letnik>
+    <kapacitetaKWh>42</kapacitetaKWh>
+    <porabaKWh100km>14.0</porabaKWh100km>
+    <prikljucek>CCS</prikljucek>
+  </vozilo>
+</vozila>

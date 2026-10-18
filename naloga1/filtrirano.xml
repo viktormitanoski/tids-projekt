@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filtrirano datumIzvoza="2026-10-18T09:57:48.148Z" steviloZapisov="5">
+  <filtri>
+    <mesto>Ljubljana</mesto>
+  </filtri>
+  <polnjenja>
+    <polnjenje id="N01">
+      <datum>2026-09-02</datum>
+      <energijaKWh>35</energijaKWh>
+      <trajanjeMin>25</trajanjeMin>
+      <cenaEur>20.65</cenaEur>
+      <ocena>5</ocena>
+      <vozilo id="V02">
+        <znamka>Volkswagen</znamka>
+        <model>ID.3</model>
+        <letnik>2023</letnik>
+        <kapacitetaKWh>58</kapacitetaKWh>
+        <porabaKWh100km>15.5</porabaKWh100km>
+        <prikljucek>CCS</prikljucek>
+      </vozilo>
+      <polnilnica id="P01">
+        <ime>Petrol BTC</ime>
+        <mesto>Ljubljana</mesto>
+        <upravljavec>Petrol</upravljavec>
+        <prikljucek>CCS</prikljucek>
+        <mocKW>150</mocKW>
+        <cenaKWh>0.59</cenaKWh>
+        <deluje>true</deluje>
+        <datumZadnjegaPregleda>2026-03-12</datumZadnjegaPregleda>
+      </polnilnica>
+    </polnjenje>
+    <polnjenje id="N02">
+      <datum>2026-09-03</datum>
+      <energijaKWh>40</energijaKWh>
+      <trajanjeMin>18</trajanjeMin>
+      <cenaEur>19.6</cenaEur>
+      <ocena>5</ocena>
+      <vozilo id="V03">
+        <znamka>Tesla</znamka>
+        <model>Model 3</model>
+        <letnik>2022</letnik>
+        <kapacitetaKWh>60</kapacitetaKWh>
+        <porabaKWh100km>14.5</porabaKWh100km>
+        <prikljucek>CCS</prikljucek>
+      </vozilo>
+      <polnilnica id="P12">
+        <ime>Tesla Rudnik</ime>
+        <mesto>Ljubljana</mesto>
+        <upravljavec>Tesla</upravljavec>
+        <prikljucek>CCS</prikljucek>
+        <mocKW>250</mocKW>
+        <cenaKWh>0.49</cenaKWh>
+        <deluje>true</deluje>
+        <datumZadnjegaPregleda>2026-07-07</datumZadnjegaPregleda>
+      </polnilnica>
+    </polnjenje>
+    <polnjenje id="N13">
+      <datum>2026-09-25</datum>
+      <energijaKWh>30</energijaKWh>
+      <trajanjeMin>30</trajanjeMin>
+      <cenaEur>17.7</cenaEur>
+      <ocena>2</ocena>
+      <vozilo id="V08">
+        <znamka>BMW</znamka>
+        <model>i3</model>
+        <letnik></letnik>
+        <kapacitetaKWh>42</kapacitetaKWh>
+        <porabaKWh100km>15</porabaKWh100km>
+        <prikljucek>CCS</prikljucek>
+      </vozilo>
+      <polnilnica id="P01">
+        <ime>Petrol BTC</ime>
+        <mesto>Ljubljana</mesto>
+        <upravljavec>Petrol</upravljavec>
+        <prikljucek>CCS</prikljucek>
+        <mocKW>150</mocKW>
+        <cenaKWh>0.59</cenaKWh>
+        <deluje>true</deluje>
+        <datumZadnjegaPregleda>2026-03-12</datumZadnjegaPregleda>
+      </polnilnica>
+    </polnjenje>
+    <polnjenje id="N16">
+      <datum>2026-10-03</datum>
+      <energijaKWh>48</energijaKWh>
+      <trajanjeMin>25</trajanjeMin>
+      <cenaEur>23.52</cenaEur>
+      <ocena>5</ocena>
+      <vozilo id="V04">
+        <znamka>Hyundai</znamka>
+        <model>Kona Electric</model>
+        <letnik>2020</letnik>
+        <kapacitetaKWh>64</kapacitetaKWh>
+        <porabaKWh100km>15</porabaKWh100km>
+        <prikljucek>CCS</prikljucek>
+      </vozilo>
+      <polnilnica id="P12">
+        <ime>Tesla Rudnik</ime>
+        <mesto>Ljubljana</mesto>
+        <upravljavec>Tesla</upravljavec>
+        <prikljucek>CCS</prikljucek>
+        <mocKW>250</mocKW>
+        <cenaKWh>0.49</cenaKWh>
+        <deluje>true</deluje>
+        <datumZadnjegaPregleda>2026-07-07</datumZadnjegaPregleda>
+      </polnilnica>
+    </polnjenje>
+    <polnjenje id="N18">
+      <datum>2026-10-07</datum>
+      <energijaKWh>52</energijaKWh>
+      <trajanjeMin>24</trajanjeMin>
+      <cenaEur>30.68</cenaEur>
+      <ocena></ocena>
+      <vozilo id="V11">
+        <znamka>Tesla</znamka>
+        <model>Model Y</model>
+        <letnik>2024</letnik>
+        <kapacitetaKWh>75</kapacitetaKWh>
+        <porabaKWh100km>16.5</porabaKWh100km>
+        <prikljucek>CCS</prikljucek>
+      </vozilo>
+      <polnilnica id="P01">
+        <ime>Petrol BTC</ime>
+        <mesto>Ljubljana</mesto>
+        <upravljavec>Petrol</upravljavec>
+        <prikljucek>CCS</prikljucek>
+        <mocKW>150</mocKW>
+        <cenaKWh>0.59</cenaKWh>
+        <deluje>true</deluje>
+        <datumZadnjegaPregleda>2026-03-12</datumZadnjegaPregleda>
+      </polnilnica>
+    </polnjenje>
+  </polnjenja>
+</filtrirano>
