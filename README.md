@@ -12,6 +12,8 @@ Sistem vozniku električnega vozila pripravi načrt polnjenja za izbrano pot. Po
 |---|---|
 | [Naloga 1: XML in JSON](naloga1/) | branje, povezovanje in filtriranje podatkov iz XML ter izvoz v JSON in XML |
 | [Naloga 2: Parser](naloga2/) | razčlenjevanje podatkov o električnih vozilih s strani EV Database s Puppeteerjem in shranjevanje v JSON |
+| [Naloga 3: Odprti podatki](naloga3/) | vizualizacija odprtih podatkov SURS (PC-Axis) o električnih vozilih s Chart.js |
+
 
 ## Tehnologije
 
