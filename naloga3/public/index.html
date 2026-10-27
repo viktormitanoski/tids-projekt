@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Električna vozila v Sloveniji</title>
+  <link rel="stylesheet" href="slog.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Električna vozila v Sloveniji</h1>
+    <p id="vir">Nalagam podatke s SURS ...</p>
+  </header>
+
+  <section class="filtri">
+    <label>Kategorija vozila <select id="kategorija"></select></label>
+    <label>Regija <select id="regija"></select></label>
+    <label>Meritev <select id="meritev"></select></label>
+  </section>
+
+  <section class="povzetek">
+    <div class="kartica"><span id="stevilo">–</span><small id="opisStevila">električnih vozil</small></div>
+    <div class="kartica"><span id="delez">–</span><small>delež vseh vozil</small></div>
+    <div class="kartica"><span id="rast">–</span><small>rast glede na prejšnje leto</small></div>
+  </section>
+
+  <section class="grafi">
+    <div class="graf"><h2>Električna in hibridna vozila po letih</h2><canvas id="grafLeta"></canvas></div>
+    <div class="graf"><h2>Delež električnih vozil po letih (%)</h2><canvas id="grafDelez"></canvas></div>
+    <div class="graf"><h2 id="naslovRegije">Delež električnih vozil po regijah (%)</h2><canvas id="grafRegije"></canvas></div>
+    <div class="graf"><h2 id="naslovGoriva">Vozila po vrsti pogona in goriva</h2><canvas id="grafGoriva"></canvas></div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

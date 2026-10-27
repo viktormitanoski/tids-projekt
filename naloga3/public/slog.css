@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 16px;
+  font-family: system-ui, sans-serif;
+  background: #f5f7f6;
+  color: #1f2a26;
+}
+
+
+header h1 {
+  margin: 0 0 4px;
+}
+
+#vir {
+  margin: 0 0 16px;
+  color: #5b6b65;
+  font-size: 14px;
+}
+
+
+.filtri {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.filtri label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 13px;
+}
+
+.filtri select {
+  max-width: 100%;
+  padding: 6px;
+  border: 1px solid #c8d3cf;
+  border-radius: 6px;
+}
+
+.povzetek {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.kartica {
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.kartica span {
+  font-size: 28px;
+  font-weight: 600;
+  color: #0f6e56;
+}
+
+.kartica small {
+  color: #5b6b65;
+}
+
+.grafi {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+.graf {
+  padding: 14px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.graf h2 {
+  margin: 0 0 10px;
+  font-size: 15px;
+}
