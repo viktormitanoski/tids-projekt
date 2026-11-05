@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Načrtovalec polnjenja</title>
+  <link rel="stylesheet" href="slog.css">
+</head>
+<body>
+  <header>
+    <h1>Načrtovalec polnjenja električnega vozila</h1>
+    <p class="podnaslov">Vnesi pot in stanje baterije, načrt pripravi umetna inteligenca (Google Gemini).</p>
+  </header>
+
+  <form id="obrazec">
+    <label class="sirok">Vozilo
+      <input id="iskanjeVozila" type="search" placeholder="Išči po imenu, npr. Tesla Model 3">
+      <select id="vozilo" required size="5"></select>
+    </label>
+    <label>Začetek <input id="zacetek" required maxlength="80" placeholder="npr. Maribor"></label>
+    <label>Cilj <input id="cilj" required maxlength="80" placeholder="npr. Koper"></label>
+    <label>Napolnjenost ob odhodu: <strong id="napolnjenostIzpis">60 %</strong>
+      <input id="napolnjenost" type="range" min="1" max="100" value="60">
+    </label>
+    <label>Želena rezerva na cilju: <strong id="rezervaIzpis">20 %</strong>
+      <input id="rezerva" type="range" min="0" max="50" value="20">
+    </label>
+    <label>Čas odhoda <input id="casOdhoda" type="datetime-local" required></label>
+    <button type="submit" id="gumb">Pripravi načrt</button>
+    <p id="napakaObrazca" class="napaka"></p>
+  </form>
+
+  <section id="rezultat" hidden>
+    <p id="opozorilo" class="opozorilo" hidden></p>
+
+    <div class="povzetek">
+      <div class="kartica"><span id="razdalja"></span><small>ocenjena razdalja</small></div>
+      <div class="kartica"><span id="casPoti"></span><small>skupni čas poti</small></div>
+      <div class="kartica"><span id="steviloPostankov"></span><small>postankov za polnjenje</small></div>
+      <div class="kartica"><span id="naCilju"></span><small>baterija na cilju</small></div>
+    </div>
+
+    <h2>Postanki</h2>
+    <ol id="postanki"></ol>
+
+    <h2>Nasveti</h2>
+    <ul id="nasveti"></ul>
+
+    <p class="opomba" id="opomba"></p>
+
+    <details>
+      <summary>Prikaži prompt, poslan modelu</summary>
+      <pre id="prompt"></pre>
+    </details>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
