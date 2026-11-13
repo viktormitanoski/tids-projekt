@@ -14,6 +14,7 @@ Sistem vozniku električnega vozila pripravi načrt polnjenja za izbrano pot. Po
 | [Naloga 2: Parser](naloga2/) | razčlenjevanje podatkov o električnih vozilih s strani EV Database s Puppeteerjem in shranjevanje v JSON |
 | [Naloga 3: Odprti podatki](naloga3/) | vizualizacija odprtih podatkov SURS (PC-Axis) o električnih vozilih s Chart.js |
 | [Naloga 4: Uporaba LLM](naloga4/) | načrt polnjenja, ki ga na podlagi vnosa uporabnika pripravi Google Gemini v obliki JSON |
+| [Naloga 5: gRPC](naloga5/) | polnilnice in simulacija polnjenja v realnem času prek gRPC s pretakanjem s strežnika |
 
 
 ## Tehnologije
@@ -21,3 +22,5 @@ Sistem vozniku električnega vozila pripravi načrt polnjenja za izbrano pot. Po
 - Node.js (JavaScript)
 - fast-xml-parser
 - Puppeteer
+- Google Gemini API (@google/genai)
+- gRPC (@grpc/grpc-js, Protocol Buffers)

@@ -1,0 +1,17 @@
+[
+  { "id": "P01", "ime": "Petrol BTC", "mesto": "Ljubljana", "upravljavec": "Petrol", "prikljucek": "CCS", "moc_kw": 150, "cena_kwh": 0.59, "deluje": true },
+  { "id": "P02", "ime": "Petrol Tepanje", "mesto": "Slovenske Konjice", "upravljavec": "Petrol", "prikljucek": "CCS", "moc_kw": 50, "cena_kwh": 0.55, "deluje": true },
+  { "id": "P03", "ime": "Europark", "mesto": "Maribor", "upravljavec": "MOOON", "prikljucek": "TYPE2", "moc_kw": 22, "cena_kwh": 0.39, "deluje": true },
+  { "id": "P04", "ime": "Kranj center", "mesto": "Kranj", "upravljavec": "GremoNaElektriko", "prikljucek": "TYPE2", "moc_kw": 22, "cena_kwh": 0.35, "deluje": true },
+  { "id": "P05", "ime": "Interspar Celje", "mesto": "Celje", "upravljavec": "MOOON", "prikljucek": "CCS", "moc_kw": 100, "cena_kwh": 0.52, "deluje": true },
+  { "id": "P06", "ime": "Koper Supernova", "mesto": "Koper", "upravljavec": "Ionity", "prikljucek": "CCS", "moc_kw": 350, "cena_kwh": 0.69, "deluje": true },
+  { "id": "P07", "ime": "Petrol Novo mesto", "mesto": "Novo mesto", "upravljavec": "Petrol", "prikljucek": "CHADEMO", "moc_kw": 50, "cena_kwh": 0.55, "deluje": false },
+  { "id": "P08", "ime": "Počivališče Lukovica", "mesto": "Lukovica", "upravljavec": "Ionity", "prikljucek": "CCS", "moc_kw": 350, "cena_kwh": 0.69, "deluje": true },
+  { "id": "P09", "ime": "Ptuj center", "mesto": "Ptuj", "upravljavec": "GremoNaElektriko", "prikljucek": "TYPE2", "moc_kw": 11, "cena_kwh": 0.30, "deluje": true },
+  { "id": "P10", "ime": "Nova Gorica Qlandia", "mesto": "Nova Gorica", "upravljavec": "MOOON", "prikljucek": "CCS", "moc_kw": 150, "cena_kwh": 0.57, "deluje": true },
+  { "id": "P11", "ime": "Petrol Murska Sobota", "mesto": "Murska Sobota", "upravljavec": "Petrol", "prikljucek": "CCS", "moc_kw": 50, "cena_kwh": 0.55, "deluje": false },
+  { "id": "P12", "ime": "Tesla Rudnik", "mesto": "Ljubljana", "upravljavec": "Tesla", "prikljucek": "CCS", "moc_kw": 250, "cena_kwh": 0.49, "deluje": true },
+  { "id": "P13", "ime": "Velenje center", "mesto": "Velenje", "upravljavec": "GremoNaElektriko", "prikljucek": "TYPE2", "moc_kw": 22, "cena_kwh": 0.35, "deluje": true },
+  { "id": "P14", "ime": "Petrol Tezno", "mesto": "Maribor", "upravljavec": "Petrol", "prikljucek": "CCS", "moc_kw": 150, "cena_kwh": 0.59, "deluje": true },
+  { "id": "P15", "ime": "OMV Postojna", "mesto": "Postojna", "upravljavec": "OMV", "prikljucek": "CCS", "moc_kw": 100, "cena_kwh": 0.62, "deluje": true }
+]

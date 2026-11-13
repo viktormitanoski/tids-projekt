@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Polnilnice in polnjenje</title>
+  <link rel="stylesheet" href="slog.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Polnilnice in simulacija polnjenja</h1>
+    <p class="podnaslov">Podatki se prenašajo prek gRPC.</p>
+  </header>
+
+  <main>
+    <section class="plosca">
+      <h2>Polnilnice</h2>
+      <div class="filtri">
+        <select id="mesto"><option value="">Vsa mesta</option></select>
+        <select id="prikljucek">
+          <option value="">Vsi priključki</option>
+          <option>CCS</option>
+          <option>TYPE2</option>
+          <option>CHADEMO</option>
+        </select>
+        <label class="kljukica"><input type="checkbox" id="samoDelujoce"> samo delujoče</label>
+      </div>
+      <p id="steviloPolnilnic" class="opomba"></p>
+      <ul id="polnilnice"></ul>
+    </section>
+    
+    <section class="plosca">
+      <h2>Polnjenje</h2>
+      <div id="izbranaPolnilnica" class="opomba">Izberi polnilnico na seznamu.</div>
+
+      <label>Vozilo
+        <input id="iskanjeVozila" type="search" placeholder="Išči vozilo, npr. Tesla">
+        <select id="vozilo" size="4"></select>
+      </label>
+
+      <label>Začetna napolnjenost: <strong id="odIzpis">20 %</strong>
+        <input id="od" type="range" min="0" max="99" value="20">
+      </label>
+      <label>Ciljna napolnjenost: <strong id="doIzpis">80 %</strong>
+        <input id="do" type="range" min="1" max="100" value="80">
+      </label>
+
+      <button id="gumb">Začni polnjenje</button>
+      <p id="napaka" class="napaka"></p>
+
+      <div id="potek" hidden>
+        <div class="baterija"><div id="vrstica"></div><span id="odstotek">0 %</span></div>
+        <div class="stevilke">
+          <div><span id="moc">–</span><small>moč</small></div>
+          <div><span id="energija">–</span><small>energija</small></div>
+          <div><span id="cena">–</span><small>cena</small></div>
+          <div><span id="preostalo">–</span><small>preostalo</small></div>
+        </div>
+        <canvas id="graf" height="160"></canvas>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

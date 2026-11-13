@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px;
+  font-family: system-ui, sans-serif;
+  background: #f5f7f6;
+  color: #1f2a26;
+}
+
+h1 {
+  margin: 0 0 4px;
+}
+
+h2 {
+  margin: 0 0 12px;
+  font-size: 18px;
+}
+
+.podnaslov,
+.opomba {
+  margin: 0 0 12px;
+  font-size: 14px;
+  color: #5b6b65;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+  align-items: start;
+}
+
+.plosca {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+}
+
+input,
+select,
+button {
+  font: inherit;
+}
+
+input[type="search"],
+select {
+  padding: 8px;
+  border: 1px solid #c8d3cf;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 14px;
+  font-weight: 600;
+  color: #fff;
+  background: #0f6e56;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.napaka {
+  margin: 0;
+  color: #a32d2d;
+}
+
+.filtri {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.kljukica {
+  flex-direction: row;
+  align-items: center;
+}
+
+#polnilnice {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#polnilnice li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  padding: 10px;
+  border: 1px solid #e1e8e5;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#polnilnice li.izbrana {
+  border-color: #0f6e56;
+  background: #e1f5ee;
+}
+
+#polnilnice li.ne-deluje {
+  opacity: 0.6;
+}
+
+#polnilnice small {
+  display: block;
+  color: #5b6b65;
+}
+
+#polnilnice button {
+  padding: 4px 8px;
+  font-size: 12px;
+  background: #888780;
+}
+
+.baterija {
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  background: #e1e8e5;
+  border-radius: 8px;
+}
+
+#vrstica {
+  width: 0;
+  height: 100%;
+  background: #1d9e75;
+  transition: width 0.4s;
+}
+
+#odstotek {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.stevilke {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.stevilke div {
+  display: flex;
+  flex-direction: column;
+}
+
+.stevilke span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0f6e56;
+}
+
+.stevilke small {
+  color: #5b6b65;
+}

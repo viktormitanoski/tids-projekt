@@ -1,0 +1,84 @@
+syntax = "proto3";
+
+package polnjenje;
+
+service PolnjenjeStoritev {
+  // seznam polnilnic, filtriran po mestu, priključku in delovanju
+  rpc SeznamPolnilnic (FilterPolnilnic) returns (SeznamPolnilnicOdgovor);
+
+  // podrobnosti ene polnilnice
+  rpc PodrobnostiPolnilnice (IdZahteva) returns (Polnilnica);
+
+  // sprememba stanja polnilnice (deluje / ne deluje)
+  rpc PosodobiStanje (PosodobitevStanja) returns (Polnilnica);
+
+  // iskanje vozil po imenu
+  rpc IsciVozila (IskanjeVozil) returns (SeznamVozilOdgovor);
+
+  // simulacija polnjenja: strežnik sproti pošilja stanje 
+  rpc SpremljajPolnjenje (ZacetekPolnjenja) returns (stream StanjePolnjenja);
+}
+
+message Polnilnica {
+  string id = 1;
+  string ime = 2;
+  string mesto = 3;
+  string upravljavec = 4;
+  string prikljucek = 5;
+  int32 moc_kw = 6;
+  double cena_kwh = 7;
+  bool deluje = 8;
+}
+
+message Vozilo {
+  string id = 1;
+  string ime = 2;
+  double baterija_kwh = 3;
+  double hitro_polnjenje_kw = 4;
+}
+
+message FilterPolnilnic {
+  string mesto = 1;          // prazno = vsa mesta
+  string prikljucek = 2;     // prazno = vsi priključki
+  bool samo_delujoce = 3;
+}
+
+message IdZahteva {
+  string id = 1;
+}
+
+message PosodobitevStanja {
+  string id = 1;
+  bool deluje = 2;
+}
+
+message IskanjeVozil {
+  string niz = 1;
+  int32 omejitev = 2;        // največje število rezultatov
+}
+
+message ZacetekPolnjenja {
+  string polnilnica_id = 1;
+  string vozilo_id = 2;
+  int32 zacetna_napolnjenost = 3;
+  int32 ciljna_napolnjenost = 4;
+}
+
+message SeznamPolnilnicOdgovor {
+  repeated Polnilnica polnilnice = 1;
+  int32 stevilo = 2;
+}
+
+message SeznamVozilOdgovor {
+  repeated Vozilo vozila = 1;
+}
+
+message StanjePolnjenja {
+  int32 minuta = 1;
+  double napolnjenost = 2;
+  double moc_kw = 3;
+  double energija_kwh = 4;
+  double cena_eur = 5;
+  int32 preostalo_min = 6;
+  bool koncano = 7;
+}

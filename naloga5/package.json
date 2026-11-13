@@ -1,0 +1,19 @@
+{
+  "name": "naloga5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "grpc": "node src/grpcStreznik.js",
+    "splet": "node src/spletniStreznik.js",
+    "test": "node src/testOdjemalec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.14.7",
+    "@grpc/proto-loader": "^0.8.1",
+    "express": "^5.3.0"
+  }
+}
